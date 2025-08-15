@@ -1,40 +1,40 @@
-# Python cache files
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
-venv/
+# Ignore virtual environments
 env/
+venv/
 .venv/
-ENV/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Model files
-models/*.pkl
-
-# Processed data
-processed_data/
-
-# Data files
-*.csv
-*.xlsx
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# IDE specific
+# Ignore IDE/project settings
 .vscode/
 .idea/
 
-# Python build files
-build/
-dist/
-*.egg-info/
+# Ignore CSVs or datasets in processed_data
+processed_data/*
+
+# Allow the main dataset
+!credit_risk_dataset.csv
+
+# Ignore model files if not needed in repo
+*.pkl
+
+# Ignore PowerPoint or presentation files
+*.pptx
+
+# Ignore executables
+*.exe
+
+# Ignore any logs
+*.log
