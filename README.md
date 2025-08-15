@@ -173,11 +173,6 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-
 
 
 ## Screenshots
