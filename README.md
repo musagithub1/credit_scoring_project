@@ -85,7 +85,7 @@ source venv/bin/activate  # Linux/Mac
 # venv\Scripts\activate   # Windows
 
 # 3️⃣ Install dependencies
-pip install -r requirements.txt
+pip install -r requirments.txt
 
 # 4️⃣ Run the complete pipeline
 python run_all.py
