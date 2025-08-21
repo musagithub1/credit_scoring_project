@@ -10,10 +10,10 @@ def run_script(script_name):
 
 if __name__ == "__main__":
     scripts = [
-        "data_preprocessing.py",
-        "eda.py",
+        "preprocess_data.py",
+        "explore_data.py",
         "train_models.py",
-        "evaluate_models.py"
+        "explore_data.py"
     ]
 
     print("🚀 Starting the Credit Scoring Project Pipeline...\n")
